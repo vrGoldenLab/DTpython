@@ -43,7 +43,7 @@ Github Pages를 활용하여 기술블로그를 운영하기 위해서는 몇 �
 
 ###  YYYY-mm-dd-{아무 이름} 형태로 작성되어야 fastpages가 이를 인식하고 파일을 html로 변환합니다.  
 
-# 깃북 만들기  
+## `gitbook` 만들기  
 1. 깃북에 접속하기 https://gitbook.com
 2. 회원 가입 방법 - 신규 이메일 가입 or 깃허브 연동 가입
 3. 회원 가입 과정 - 계정 검증 Verify 단계
@@ -56,7 +56,7 @@ Github Pages를 활용하여 기술블로그를 운영하기 위해서는 몇 �
 10. 깃북에서 Integrations 단계 진행 (왼쪽메뉴)
 11. Link your GitHub repository - (Select a repository to synchronize 과정) 
 
-## * 깃북 templete 파일을 이용해서 테스트해보기 
+## * `gitbook` templete 파일을 이용해서 테스트해보기 
 1. [https://github.com/DTpython2021/DTpythonTemplete.git](https://github.com/DTpython2021/DTpythonTemplete) 
 2. master branch download zip
 3. github Desktop 실행
@@ -66,7 +66,7 @@ Github Pages를 활용하여 기술블로그를 운영하기 위해서는 몇 �
 7. github Desktop push request 
 8. SUMMARY.md 내용을 확인하고 git북 내용을 확인합니다 
 
-## * 깃북 팀작업 
+## * `gitbook` 팀작업 
 1. SUMMARY.md 내용을 조별 분담 내용을 확인합니다 
 2. github (공통 gitbook)에 공동작업자로 팀 이끔이를 등록합니다. (Repository 오른쪽 상단 `...`  setting > `manage access` 메일등록)
 3. 이끔이 메일 확인 후 수락 버튼을 클릭합니다
