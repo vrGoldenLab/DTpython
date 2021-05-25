@@ -10,13 +10,13 @@
 ## 1. 배열의 길이와 배열 원소의 접근  
 
 len(): 배열의 데이터가 많을 경우 배열 원소의 길이를 알려주는 함수를 사용합니다. 
-```
-list = [ 1,10,15,2 ] 일때  
-list의 1번째 원소는 1 (인덱스 번호는 0)  
+
+list = [ 1,10,15,2 ] 일때    
+list의 1번째 원소는 1 (인덱스 번호는 0)    
 list의 2번째 원소는 10 (인덱스 번호는 1)  
 list의 3번째 원소는 15 (인덱스 번호는 2)  
 list의 4번째 원소는 2 (인덱스 번호는 3 ,혹은 -1)
-```
+
 
 ## 2. 슬라이싱 : 배열 원소의 일정 부분만 가져오기  
 
@@ -50,7 +50,8 @@ print("list_rg5은" , list_rg5)
 ```
 ## 4. 요소의 값 할당하기,삭제하기
 
-```list_rg5 = list('hello world')
+```
+list_rg5 = list('hello world')
 list_rg5[0] = 'H'
 
 print("list_rg5의 0번째 요소 대문자로 수정" , list_rg5)
@@ -58,5 +59,3 @@ print("list_rg5의 0번째 요소 대문자로 수정" , list_rg5)
 del list_rg5[5]
 print("list_rg5의 5번째 요소 삭제" , list_rg5)
 ```
-## <실습자료 link> 
-#### colab으로 실습하기 [https://colab.research.google.com/drive/1hcaetTRU7Yre6mOI3zysmCUtf7hzIiGP?usp=sharing](https://colab.research.google.com/drive/1hcaetTRU7Yre6mOI3zysmCUtf7hzIiGP?usp=sharing)
