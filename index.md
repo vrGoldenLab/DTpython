@@ -5,13 +5,13 @@
 * 파이썬 (Python)은 범용 프로그래밍 언어로서 코드 가독성(readability)와 간결한 코딩을 강조한 언어입니다.    
 * 파이썬은 인터프리터(interpreter) 언어로서, 리눅스, Mac OS X, 윈도우즈 등 다양한 시스템에 널리 사용됩니다.
 
-### 2. **`GoldenLab Python`**    
+### 2. **`DT Python`**    
  
 * 처음 프로그램 언어를 접하는 사람도 쉽게 따라서 할 수 있도록 단계별로 쉽게 구성되어 있습니다.   
 * 프로그램 언어의 사용 방법 만이 아니라  친근한 예제로 코드를 응용하고 새로운 코드도 생각해 볼 수 있는 학습 자료입니다. 
 
-### 3. **`GoldenLab Python` 수업 내용**
-1. GoldenLab Python 안내  
+### 3. **`DT Python` 수업 내용**
+1. DT Python 안내  
 2. `Colab` 시작하기
    * `Colab`으로 python 만들기
    * `markdown` 사용해 보기
