@@ -20,7 +20,3 @@ for 문 사용시 흔히 하는 실수는 반복 블럭을 정하는 부분입�
 for x in range(): 에서 콜론(:) 을 빠뜨리지 않았는지
 반복할 내용에서 정확히 들여쓰기가 되었는지 확인합니다.   
 
-## <실습 link>  
-
-#### colab으로 실습하기: [https://colab.research.google.com/drive/1hcaetTRU7Yre6mOI3zysmCUtf7hzIiGP?usp=sharing](https://colab.research.google.com/drive/1hcaetTRU7Yre6mOI3zysmCUtf7hzIiGP?usp=sharing)
-
