@@ -29,4 +29,3 @@ df.head()
 
 * pandas 는 데이터 조작 및 분석을 위해 Python 프로그래밍 언어로 작성된 소프트웨어 라이브러리 입니다[https://en.wikipedia.org/wiki/Pandas_(software)] (https://en.wikipedia.org/wiki/Pandas_(software))
 
-* colab 으로 실습 [https://colab.research.google.com/drive/1T_eQbKQI0M1YenLzxZ0zPlBYhVw_rreD?usp=sharing](https://colab.research.google.com/drive/1T_eQbKQI0M1YenLzxZ0zPlBYhVw_rreD?usp=sharing)
