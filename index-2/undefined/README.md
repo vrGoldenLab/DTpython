@@ -22,6 +22,4 @@
 
 기본 개요만  간단히 살펴 보도록 하겠습니다.
 
-colab 프로그램 기초 [https://colab.research.google.com/drive/1hcaetTRU7Yre6mOI3zysmCUtf7hzIiGP?usp=sharing](https://colab.research.google.com/drive/1hcaetTRU7Yre6mOI3zysmCUtf7hzIiGP?usp=sharing)
-
 전체적인 기본 구조를 머리속에 정리하면서 하나씩 예제와 함께 살펴보도록 합니다.
