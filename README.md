@@ -13,7 +13,7 @@
  *  slack 골든랩에 초대메일을 통해 참여 가능합니다.  
 
 #### < `수업자료` >
-깃허브의 주소는 [https://github.com/goldenlab/goldenlab24](https://github.com/goldenlab/goldenlab24) 입니다.   
+
 구글드라이브 공유 주소 [http://gg.gg/sbapython](http://gg.gg/sbapython)입니다.  
 
 
