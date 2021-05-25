@@ -30,4 +30,3 @@ a.right(45)
 a.color('red')
 a.forward(50)
 ```
-* colab 사용실습: [https://colab.research.google.com/drive/1Yq-JOQxNfNMMkfXWL1vRVBlQav-7QeKo?usp=sharing](https://colab.research.google.com/drive/1Yq-JOQxNfNMMkfXWL1vRVBlQav-7QeKo?usp=sharing)
