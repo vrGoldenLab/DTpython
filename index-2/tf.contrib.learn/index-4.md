@@ -31,4 +31,3 @@
 > 5. display final price \\ 총합 표시하기
 > 6. halt \\\\ 종료
 
-> sudo 코드 작성예시: [https://colab.research.google.com/drive/1pP4CA1_LTeZo8YJTDSptw6uLkaZkek-_?usp=sharing](https://colab.research.google.com/drive/1pP4CA1_LTeZo8YJTDSptw6uLkaZkek-_?usp=sharing)
