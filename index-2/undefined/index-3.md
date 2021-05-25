@@ -54,7 +54,3 @@ x != y	x와 y가 같지 않다
 x >= y	x가 y보다 크거나 같다
 x <= y	x가 y보다 작거나 같다
 ```
-## <실습link>
-
-#### colab으로 실습하기: [https://colab.research.google.com/drive/1hcaetTRU7Yre6mOI3zysmCUtf7hzIiGP?usp=sharing](https://colab.research.google.com/drive/1hcaetTRU7Yre6mOI3zysmCUtf7hzIiGP?usp=sharing)
-
