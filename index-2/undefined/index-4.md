@@ -23,7 +23,3 @@ while True:    #무한루프
   if x == 10:  #변수 x가 10일 때
     break      #반복문을 끝내고 while 문을 벗어남
 ```
-## <실습link>  
-
-#### colab으로 실습하기: [https://colab.research.google.com/drive/1hcaetTRU7Yre6mOI3zysmCUtf7hzIiGP?usp=sharing](https://colab.research.google.com/drive/1hcaetTRU7Yre6mOI3zysmCUtf7hzIiGP?usp=sharing)
-
