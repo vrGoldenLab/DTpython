@@ -150,9 +150,7 @@ maria.greeting()
 
 4. from import로 클래스 가져오기  
 
-from import로 클래스를 가져온 뒤 모듈 이름을 붙이지 않고 사용할 수 있습니다.  
-
-`from 모듈 import 클래스`  
+from import로 클래스를 가져온 뒤 모듈 이름을 붙이지 않고 사용할 수 있습니다.    
 
 ```
 from person import Person
