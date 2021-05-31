@@ -86,10 +86,11 @@ r.status_code # 결과값 200
 ```
 
 ## 3. 모듈 만들기
-1. n의 거듭제곱을 구하는 모듈 square2 민들기   
-`square2.py 파일명`    
-`square2.ipynb 파일명`    
-스크립트 파일에서 확장자를 제외하면 모듈 이름이 됩니다 
+1. n의 거듭제곱을 구하는 모듈 square2 만들기   
+`square2`.py 파일명   
+square2.ipynb 파일명      
+스크립트 파일에서 확장자를 제외하면 모듈 이름이 됩니다  
+
 ```
 base = 2          # 변수
 
@@ -101,8 +102,9 @@ def square(n):    # 함수
 
 `import 모듈`    
 `모듈.변수`    
-`모듈.함수()`   
-* main 모듈을 실행하는 파일과 모듈 파일은 같은 폴더에 존재해야 합니다 
+`모듈.함수()`  
+모듈을 import하고 모듈내의 함수나 변수를 사용합니다.  
+main 모듈을 실행하는 파일과 모듈 파일은 같은 폴더에 존재해야 합니다.   
  
 ```
 import square2               # import로 square2 모듈을 가져옴
@@ -113,7 +115,6 @@ print(square2.square(10))    # 모듈.함수() 형식으로 모듈의 함수 사
 
 * from import로 변수, 함수 가져오기  
 from import로 변수와 함수를 가져온 뒤 모듈 이름을 붙이지 않고 사용할 수 있습니다. 
-`from 모듈 import 변수, 함수`  
 
 ```
 from square2 import base, square
@@ -134,9 +135,8 @@ class Person:    # 클래스
         print('안녕하세요. 저는 {0}입니다.'.format(self.name))
 ```
 
-`import 모듈`  
-`모듈.클래스()` 로 사용합니다.  
-main 프로그램에서  
+import 모듈  
+모듈.클래스() 로 사용합니다.  
 
 ```
 import person    # import로 person 모듈을 가져옴
