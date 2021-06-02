@@ -78,8 +78,8 @@ d_print(**dic1)
  함수내부에서 생성된 변수는 함수밖에서 사용할 수 없습니다.
  외부에서 사용할 시에는 global을 사용합니다. 
 ```
- def a_test():
-       obj = 10
+def a_test():
+    obj = 10
 obj = 20
 a_test()
 print('1',obj)
@@ -95,17 +95,17 @@ print('2',obj)
  문자열이나 리스트 등도 스스로 사용할 수 있는 함수가 있습니다.
  이를 메소드(Method)라고 합니다.  
  메소드도 함수이므로 호출하는 방식은 같으나 누가 호출하는지를 명시해야 합니다.
- ```
- t1 = 'aaa'
+```
+t1 = 'aaa'
 t2 = 'bbbbb'
 print(t1.upper())
 print(t2.title())
 ```
+
 9. 언패킹 사용하기
 인수를 순서대로 넣을 때는 리스트나 튜플을 사용할 수 있습니다.  
 `*(애스터리스크)`를 붙여서 함수에 넣어서 사용합니다.  
-`함수(*리스트)`  
-`함수(*튜플)`  
+
 함수의 매개변수 개수와 리스트의 요소 개수는 같아야 합니다.  
 ```
 def print_numbers(a, b, c):
@@ -116,6 +116,7 @@ def print_numbers(a, b, c):
 x = [10, 20, 30]
 print_numbers(*x)
 ```
+
 10. 가변 인수 함수 만들기   
 같은 함수에 인수 한 개를 넣을 수도 있고, 열 개를 넣을 수도 있습니다.  또는, 인수를 넣지 않을 수도 있습니다.  
 
@@ -130,16 +131,19 @@ def print_numbers(*args):
 print_numbers(10)
 print_numbers(10, 20, 30, 40)        
 ```
+
 `print_numbers` 함수에 숫자를 넣어서 호출해봅니다.넣은 숫자 개수만큼 출력되는 것을 확인할 수 있습니다.
-리스트(튜플) 언팩킹도 사용할 수 있습니다.
+리스트(튜플) 언팩킹도 사용할 수 있습니다.  
+
 ```
 x = [10]
 print_numbers(*x)
 
 y = [10, 20, 30, 40]
 print_numbers(*y)
-```
-고정인수와 가변 인수 함께 사용 예
+```  
+고정인수와 가변 인수 함께 사용 예  
+
 ```
 def print_numbers(a, *args):
     print(a)
@@ -149,7 +153,8 @@ print_numbers(1) # 1,()
 print_numbers(1, 10, 20) # 1, (10,20)
 print_numbers(*[10, 20, 30]) # 10,(20,30)
 ```
-def print_numbers`(*args, a)`:처럼 `*args`가 고정 매개변수보다 앞쪽에 오면 안 됩니다. 매개변수 순서에서 `*args`는 반드시 가장 뒤쪽에 와야 합니다.
+def print_numbers`(*args, a)`:처럼 `*args`가 고정 매개변수보다 앞쪽에 오면 안 됩니다.   
+매개변수 순서에서 `*args`는 반드시 가장 뒤쪽에 와야 합니다.  
 
 11. 키워드 인수 사용  
 키워드 인수는 말 그대로 인수에 이름(키워드)을 붙이는 기능입니다.  
@@ -164,8 +169,10 @@ personal_info(age=30, address='서울시 용산구 이촌동', name='홍길동')
 ```
 키워드 인수를 사용하면 인수의 순서를 맞추지 않아도 키워드에 해당하는 값이 들어갑니다.  
 
-12. 키워드 인수 딕션너리 언팩킹
-`**x`처럼 딕셔너리를 언패킹하면 딕셔너리의 값들이 함수의 인수로 들어갑니다.
+12. 키워드 인수 딕션너리 언팩킹  
+
+`**x`처럼 딕셔너리를 언패킹하면 딕셔너리의 값들이 함수의 인수로 들어갑니다.  
+
 ```
 def personal_info(name, age, address):
     print('이름: ', name)
@@ -174,14 +181,16 @@ def personal_info(name, age, address):
 x = {'name': '홍길동', 'age': 30, 'address': '서울시 용산구 이촌동'}
 personal_info(**x) 
 personal_info(**{'name': '홍길동', 'age': 30, 'address': '서울시 용산구 이촌동'})
-```
+```  
+
 딕셔너리 변수 대신 딕셔너리 앞에 바로 `**`를 붙여도 동작은 같습니다.  
 매개변수 이름, 개수가 다른 딕셔너리를 넣으면 에러가 발생합니다.
 
 13. 키워드 인수를 사용하는 가변 인수 함수 만들기  
 매개변수 앞에 `**`를 붙여서 만듭니다.    
 함수를 만들 때 괄호 안에 `**kwarg`s와 같이 매개변수 앞에 `**`를 붙입니다. 함수 안에서는 for로 kwargs.items()를 반복하면서 print로 값을 출력합니다. 
-매개변수 이름은 관례적으로 keyword arguments를 줄여서 kwargs로 사용합니다. 특히 이 kwargs는 딕셔너리라서 for로 반복할 수 있습니다.
+매개변수 이름은 관례적으로 keyword arguments를 줄여서 kwargs로 사용합니다. 특히 이 kwargs는 딕셔너리라서 for로 반복할 수 있습니다.  
+
 ```
 def personal_info(**kwargs):
     for kw, arg in kwargs.items():
@@ -192,8 +201,10 @@ x = {'name': '홍길동'}
 personal_info(**x)
 y = {'name': '홍길동', 'age': 30, 'address': '서울시 용산구 이촌동'}
 personal_info(**y)
-```
+```  
+
 보통 `**kwargs`를 사용한 가변 인수 함수는 다음과 같이 함수 안에서 특정 키가 있는지 확인한 뒤 해당 기능을 만듭니다.  
+
 ```
 def personal_info(**kwargs):
     if 'name' in kwargs:    # in으로 딕셔너리 안에 특정 키가 있는지 확인
@@ -204,7 +215,9 @@ def personal_info(**kwargs):
         print('주소: ', kwargs['address'])
 ```
 14. 매개변수에 초깃값 지정하기  
+
 인수를 생략시 함수의 매개변수에 초깃값을 지정합니다.  
+
 ```
 def personal_info(name, age, address='비공개'):
    print('이름: ', name)
@@ -212,12 +225,14 @@ def personal_info(name, age, address='비공개'):
    print('주소: ', address)  
 personal_info('홍길동', 30)   
 ```
-`초깃값을 지정할 때 한 가지 주의할 점`:초깃값이 지정된 매개변수 다음에는 초깃값이 없는 매개변수가 올 수 없습니다.  
+
+초깃값을 지정할 때 한 가지 주의할 점:초깃값이 지정된 매개변수 다음에는 초깃값이 없는 매개변수가 올 수 없습니다.  
 
 ## 2. 파이썬에서 함수 재귀 호출  
 함수 안에서 함수 자기자신을 호출하는 방식  
 재귀호출은 일반적인 상황에서는 잘 사용하지 않지만 알고리즘을 구현할 때 매우 유용합니다. 
 1. 재귀호출 사용  
+
 ```
 def hello():
     print('Hello, world!')
@@ -225,8 +240,11 @@ def hello():
  
 hello()
 ```
-파이썬에서는 최대 재귀 깊이(maximum recursion depth)가 1,000으로 정해져 있습니다.  최대 재귀 깊이를 초과하면 RecursionError가 발생합니다.  
+파이썬에서는 최대 재귀 깊이(maximum recursion depth)가 1,000으로 정해져 있습니다.  
+최대 재귀 깊이를 초과하면 RecursionError가 발생합니다.  
+
 2. 재귀호출에 종료 조건  
+
 ```
 def hello(count):
     if count == 0:    # 종료 조건을 만듦. count가 0이면 다시 hello 함수를 호출하지 않고 끝냄
@@ -240,6 +258,7 @@ def hello(count):
 hello(5)    # hello 함수 호출
 ```
 3. 재귀호출을 사용하여 팩토리얼을 구현  
+
 팩토리얼은 1부터 n까지 양의 정수를 차례대로 곱한 값이며 !(느낌표) 기호로 표기합니다.  
 n과 반환된 결괏값을 곱하여 다시 반환하는 과정을 반복합니다.  
 ```
@@ -354,4 +373,3 @@ list(filter(lambda x: x > 5 and x < 10, a))
 ```
 
 
-> **colab 코딩연습:** [https://colab.research.google.com/drive/1U0JXeHcd2cBpGOUaRyrDnHPLqq82xUio?usp=sharing](https://colab.research.google.com/drive/1U0JXeHcd2cBpGOUaRyrDnHPLqq82xUio?usp=sharing) 
