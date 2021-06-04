@@ -51,7 +51,7 @@ Github Pages를 활용하여 기술블로그를 운영하기 위해서는 몇 �
 5. Start with a personal space (개인용 공간) 
 6. 개인용 공간,프로젝트 공간(space) 생성하기 - `Shareable Link` 생성하는 법 (Visibility : Private → `Public`)
 7. USERNAME 변경하는 법 : 프로필 및의 setting에서 name변경
-8. 공유 링크 주소 변경하는 법 - domain setting : 작업공간을 클릭하고 왼쪽메뉴 `share`에서 `Shareable Link`밑 `domain setting`을 클릭 변경  
+8. 공유 링크 주소 변경하는 법 (domain setting ) : 작업공간을 클릭하고 왼쪽메뉴 `share`에서 `Shareable Link`밑 `domain setting`을 클릭 변경  
 9. 깃허브에서 연동할 레포지토리(repository) 생성하기
 10. 깃북에서 Integrations 단계 진행 (왼쪽메뉴)
 11. Link your GitHub repository - (Select a repository to synchronize 과정) 
