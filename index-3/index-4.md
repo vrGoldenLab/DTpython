@@ -5,9 +5,9 @@
    ‘홈페이지를 제작한다.’, ‘웹 앱을 만든다.’ 라는 의미도 기획자가 의도에 맞는 데이터를 자신의 서버에 넣어 고객들의 요청에 맞게 전달한다는 의미와 같다고 볼 수 있습니다.   
 3. 서버의 주소 : URL(ip와 port로 구성) 192.168.x.x:88  
 4. 서버의 종류  
-  1. 웹 서버  
-  2. 데이터 베이스 서버(mysql ..)  
-  3. DSN,FTP,ssh  
+  * 웹 서버  
+  * 데이터 베이스 서버(mysql ..)  
+  * DSN,FTP,ssh  
 5. HTTP (Hyper Text Transfer Protocal) www상의 통신 규약  
 6.Request : 서버에게 서비스를 요청   
 7.Response: 서버로 부터 응답 (HTML,Javascript,image 등)  
