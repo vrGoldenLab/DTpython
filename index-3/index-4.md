@@ -9,7 +9,7 @@
   * 데이터 베이스 서버(mysql ..)  
   * DSN,FTP,ssh  
 
-5. HTTP (Hyper Text Transfer Protocal) www상의 통신 규약  
+5.HTTP (Hyper Text Transfer Protocal) www상의 통신 규약  
 6.Request : 서버에게 서비스를 요청   
 7.Response: 서버로 부터 응답 (HTML,Javascript,image 등)  
 
