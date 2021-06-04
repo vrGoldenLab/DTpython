@@ -94,9 +94,9 @@
 
 
 
-## <관련자료 link>
-구글드라이브 공유 주소: [http://gg.gg/sbapython](http://gg.gg/sbapython)입니다. 
-앱인벤터: [https://appinventor.mit.edu/](https://appinventor.mit.edu/)
+## <관련자료 link>   
+구글드라이브 공유 주소: [http://gg.gg/sbapython](http://gg.gg/sbapython)입니다.   
+앱인벤터: [https://appinventor.mit.edu/](https://appinventor.mit.edu/)  
 
 
 
