@@ -1,4 +1,4 @@
-# fastpages에서 블로그 시작하기
+# 1. fastpages에서 블로그 시작하기
 Github Pages를 활용하여 기술블로그를 운영하기 위해서는 몇 가지 난관이 있습니다. 
 자료를 찾아보면 주로 Jekyll, Hugo, Hexo, Gatsby.JS 와 같이 낯설고 어려운 프레임워크을 사용해야 합니다.  
 커스터마이징을 하거나 기능을 추가하기 위해서는 html, CSS 또는 NodeJS 같은 프레임워크를 알아야 합니다.  
@@ -43,7 +43,7 @@ Github Pages를 활용하여 기술블로그를 운영하기 위해서는 몇 �
 
 ###  YYYY-mm-dd-{아무 이름} 형태로 작성되어야 fastpages가 이를 인식하고 파일을 html로 변환합니다.  
 
-## `gitbook` 만들기  
+# 2. `gitbook` 만들기  
 1. 깃북에 접속하기 https://gitbook.com
 2. 회원 가입 방법 - 신규 이메일 가입 or 깃허브 연동 가입
 3. 회원 가입 과정 - 계정 검증 Verify 단계
