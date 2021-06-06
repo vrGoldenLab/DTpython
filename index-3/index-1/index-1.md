@@ -60,7 +60,7 @@ a.close()
 
 # Pandas 사용법  
 
-* 더욱 자세한 사용법은 [https://pandas.pydata.org/pandas-docs/stable/index.html](https://pandas.pydata.org/pandas-docs/stable/index.html) 에서 살펴볼 수 있습니다.
+더욱 자세한 사용법은 [https://pandas.pydata.org/pandas-docs/stable/index.html](https://pandas.pydata.org/pandas-docs/stable/index.html) 에서 살펴볼 수 있습니다.
 파이썬의 경우에는 엑셀 파일(xlsx)을 열기 위해서는 판다스 라이브러리를 사용해야 합니다.  
 판다스 라이브러리란 일종에 확장 프로그램으로 파이썬을 엑셀처럼 사용할 수 있게 도와주는 도구입니다.  
 
